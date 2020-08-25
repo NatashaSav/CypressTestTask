@@ -1,0 +1,25 @@
+{
+  "name": "qa_cypress",
+  "version": "0.0.0",
+  "description": "test task for automation QA with using cypress.js",
+  "scripts": {
+    "cypress": "./node_modules/.bin/cypress run",
+    "serve": "./node_modules/.bin/cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NatashaSav/CypressTestTask.git"
+  },
+  "author": "Natali Osnovenko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NatashaSav/CypressTestTask/issues"
+  },
+  "homepage": "https://github.com/NatashaSav/CypressTestTask#readme",
+  "devDependencies": {
+    "cypress": "5.0.0",
+    "cypress-iframe": "1.0.1",
+    "mocha": "8.1.2",
+    "mochawesome": "6.1.1"
+  }
+}
