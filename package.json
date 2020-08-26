@@ -4,7 +4,8 @@
   "description": "test task for automation QA with using cypress.js",
   "scripts": {
     "cypress": "./node_modules/.bin/cypress run",
-    "serve": "./node_modules/.bin/cypress open"
+    "serve": "./node_modules/.bin/cypress open",
+    "test": "npm run cypress -- --headed"
   },
   "repository": {
     "type": "git",
