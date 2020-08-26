@@ -5,6 +5,6 @@ export default class HomePage {
         cy.get('#rcmloginuser').type('qa-test@arixess.com');
         cy.get('#rcmloginpwd').type('catch123');
         cy.get('#rcmloginsubmit').click();
-        return cy.wait(1000)
+        cy.wait(1000)
     }
 }
