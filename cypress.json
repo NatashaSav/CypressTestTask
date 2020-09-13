@@ -1,7 +1,14 @@
 {
   "defaultCommandTimeout": 8000,
   "pageLoadTimeout": 30000,
-  "reporter": "mochawesome",
   "retries": 1,
-  "projectId": "bbgusj"
+  "video": false,
+  "projectId": "bbgusj",
+  "reporter": "mochawesome",
+  "reporterOptions": {
+    "reportDir": "cypress/results",
+    "overwrite": false,
+    "html": false,
+    "json": true
+  }
 }
