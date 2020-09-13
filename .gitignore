@@ -3,3 +3,4 @@ package-lock.json
 /.idea
 /cypress/videos
 /mochawesome-report
+/cypress/screenshots/
